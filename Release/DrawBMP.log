@@ -1,0 +1,29 @@
+﻿  Function.cpp
+Function.cpp(21): warning C4473: 'fscanf' : not enough arguments passed for format string
+  Function.cpp(21): note: placeholders and their parameters expect 7 variadic arguments, but 6 were provided
+  Function.cpp(21): note: the missing variadic argument 7 is required by format string '%d'
+Function.cpp(21): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+Function.cpp(64): warning C4018: '<': signed/unsigned mismatch
+Function.cpp(94): warning C4018: '<': signed/unsigned mismatch
+Function.cpp(104): warning C4018: '<': signed/unsigned mismatch
+Function.cpp(125): warning C4018: '<': signed/unsigned mismatch
+Function.cpp(146): warning C4018: '<': signed/unsigned mismatch
+  Main.cpp
+Main.cpp(4): warning C4103: 'c:\users\toan lv\documents\visual studio 2015\projects\appdev\drawbmp\main.cpp': alignment changed after including header, may be due to missing #pragma pack(pop)
+Main.cpp(7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+Main.cpp(8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+Main.cpp(16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+Main.cpp(28): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+Main.cpp(40): warning C4996: 'fcloseall': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fcloseall. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2447): note: see declaration of 'fcloseall'
+Main.cpp(43): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\conio.h(452): note: see declaration of 'getch'
+  Generating code
+  All 23 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  DrawBMP.vcxproj -> C:\Users\TOAN LV\Documents\Visual Studio 2015\Projects\AppDev\DrawBMP\Release\DrawBMP.exe
